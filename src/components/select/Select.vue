@@ -1,7 +1,7 @@
 <template>
     <div
         class="control"
-        :class="{ 'is-expanded': expanded, 'has-icons-left': icon }"
+        :class="{ 'is-expanded': expanded, 'has-icons-start': icon }"
     >
         <span class="select" :class="spanClasses">
 
@@ -33,7 +33,7 @@
 
         <b-icon
             v-if="icon"
-            class="is-left"
+            class="is-start"
             :icon="icon"
             :pack="iconPack"
             :size="iconSize"

@@ -99,7 +99,7 @@ export default {
                 'is-absolute': this.isAbsolute,
                 'is-fullheight': this.fullheight,
                 'is-fullwidth': this.fullwidth,
-                'is-right': this.right,
+                'is-end': this.right,
                 'is-mini': this.reduce && !this.isDelayOver,
                 'is-mini-expand': this.expandOnHover || this.isDelayOver,
                 'is-mini-expand-fixed': (this.expandOnHover && this.expandOnHoverFixed) || this.isDelayOver,

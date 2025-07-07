@@ -27,7 +27,7 @@
         >
             <article class="panel is-primary">
                 <div class="panel-block">
-                    <p class="control has-icons-left">
+                    <p class="control has-icons-start">
                         <b-input
                             ref="searchbar"
                             type="search"

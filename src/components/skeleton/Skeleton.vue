@@ -31,7 +31,8 @@ export default {
                 return [
                     '',
                     'is-centered',
-                    'is-right'
+                    'is-right',
+                    'is-end',
                 ].indexOf(value) > -1
             }
         },

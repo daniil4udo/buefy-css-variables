@@ -41,7 +41,7 @@
         >
             <b-icon
                 v-show="hasPrev"
-                class="has-icons-left"
+                class="has-icons-start"
                 @click.prevent="prev"
                 :pack="settings.iconPack"
                 :icon="settings.iconPrev"
@@ -50,7 +50,7 @@
             />
             <b-icon
                 v-show="hasNext"
-                class="has-icons-right"
+                class="has-icons-end"
                 @click.prevent="next"
                 :pack="settings.iconPack"
                 :icon="settings.iconNext"

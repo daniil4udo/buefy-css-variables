@@ -29,7 +29,7 @@
         <div
             class="navbar-dropdown is-hidden-touch"
             :class="{
-                'is-right': right,
+                'is-end': right,
                 'is-boxed': boxed,
             }"
         >
@@ -39,7 +39,7 @@
             v-show="!collapsible || (collapsible && newActive)"
             class="navbar-dropdown is-hidden-desktop"
             :class="{
-                'is-right': right,
+                'is-end': right,
                 'is-boxed': boxed,
             }"
         >

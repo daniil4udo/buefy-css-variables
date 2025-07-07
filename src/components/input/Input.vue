@@ -35,7 +35,7 @@
 
         <b-icon
             v-if="icon"
-            class="is-left"
+            class="is-start"
             :class="{'is-clickable': iconClickable}"
             :icon="icon"
             :pack="iconPack"
@@ -45,7 +45,7 @@
 
         <b-icon
             v-if="!loading && hasIconRight"
-            class="is-right"
+            class="is-end"
             :class="{ 'is-clickable': passwordReveal || iconRightClickable }"
             :icon="rightIcon"
             :pack="iconPack"
@@ -173,11 +173,11 @@ export default {
             let iconClasses = ''
 
             if (this.icon) {
-                iconClasses += 'has-icons-left '
+                iconClasses += 'has-icons-start '
             }
 
             if (this.hasIconRight) {
-                iconClasses += 'has-icons-right'
+                iconClasses += 'has-icons-end'
             }
 
             return iconClasses

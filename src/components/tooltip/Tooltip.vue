@@ -62,7 +62,8 @@ export default {
                     'is-top',
                     'is-bottom',
                     'is-left',
-                    'is-right'
+                    'is-right',
+                    'is-end'
                 ].indexOf(value) > -1
             }
         },

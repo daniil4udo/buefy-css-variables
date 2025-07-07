@@ -29,7 +29,7 @@
             >
                 <b-icon
                     v-show="hasPrev"
-                    class="has-icons-left"
+                    class="has-icons-start"
                     @click="prev"
                     :pack="iconPack"
                     :icon="iconPrev"
@@ -38,7 +38,7 @@
                 />
                 <b-icon
                     v-show="hasNext"
-                    class="has-icons-right"
+                    class="has-icons-end"
                     @click="next"
                     :pack="iconPack"
                     :icon="iconNext"
