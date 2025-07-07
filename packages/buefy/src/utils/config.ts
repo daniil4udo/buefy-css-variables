@@ -517,8 +517,8 @@ export interface BuefyConfig {
 
 let config: BuefyConfig = {
     defaultContainerElement: null,
-    defaultIconPack: 'mdi',
-    defaultIconComponent: null,
+    defaultIconPack: 'fas',
+    defaultIconComponent: 'FontAwesomeIcon',
     defaultIconPrev: 'chevron-left',
     defaultIconNext: 'chevron-right',
     defaultLocale: undefined,
